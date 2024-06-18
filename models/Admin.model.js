@@ -4,17 +4,22 @@ const {mongoose,Schema} = require('mongoose');
  
   username:{
         type:String,
+
     },
     email:{
         type:String,
+        required:true,
+    },
+    email:{
+        type:String,
+        required:true,
       },
    
-    img:{
+    image:{
        type:String,
     },
     password:{
         type:Number,
-        required:true,
        
     },
     
