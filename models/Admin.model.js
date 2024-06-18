@@ -4,7 +4,6 @@ const {mongoose,Schema} = require('mongoose');
  
   username:{
         type:String,
-        required:true,
     },
     email:{
         type:String,
