@@ -12,31 +12,16 @@ const {mongoose,Schema} = require('mongoose');
         required:true,
         unique:true,
       },
-    country:{
-      type:String,
-    },
+   
     img:{
        type:String,
     },
-    
-  city:{
-        type:String,
-    },
-    
-  phone:{
-      type:String,
-    },
-  password:{
+    password:{
         type:Number,
         required:true,
        
     },
     
-    isAdmin:{
-      type:Boolean,
-    },
-   
-
  },{timestamps:true})
  const Admin = mongoose.model('Admin', AdminSchema);
  module.exports = Admin;
