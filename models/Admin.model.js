@@ -13,7 +13,7 @@ const {mongoose,Schema} = require('mongoose');
         unique:true,
       },
    
-    img:{
+    image:{
        type:String,
     },
     password:{
