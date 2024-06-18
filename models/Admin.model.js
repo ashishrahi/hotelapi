@@ -10,7 +10,6 @@ const {mongoose,Schema} = require('mongoose');
     email:{
         type:String,
         required:true,
-        unique:true,
       },
    
     image:{
